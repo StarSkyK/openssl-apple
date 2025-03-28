@@ -5,7 +5,7 @@ import PackageDescription
 
 let filename = "openssl.xcframework.zip"
 let version = "3.4.200"
-let checksum = "f6810dbc37a42e0bc7ceca44716987a3f40629d3c79967a5626e12b0bb93b65a"
+let checksum = "9b8e572e048978952fc6c9864a256a369637f0bbf10f0c58a703b9c001215b2f"
 
 let package = Package(
     name: "openssl-apple",
@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "openssl",
-            url: "https://github.com/passepartoutvpn/openssl-apple/releases/download/\(version)/\(filename)",
+            url: "https://github.com/StarSkyK/openssl-apple/releases/download/privacy/OpenSSL.xcframework.zip",
             checksum: checksum
         ),
 
